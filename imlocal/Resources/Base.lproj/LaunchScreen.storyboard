@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Yeseva_One.ttf">
+            <string>YesevaOne</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Места, акции и события рядом с Вами" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vw-xU-9B5">
+                                <rect key="frame" x="22.666666666666657" y="278" width="330" height="133"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="133" id="tHe-3y-Iam"/>
+                                    <constraint firstAttribute="width" constant="330" id="ugT-mV-Ugu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="YesevaOne" family="Yeseva One" pointSize="31"/>
+                                <color key="textColor" red="0.99694985150000004" green="0.50595414640000003" blue="0.53780025239999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="Uce-Gv-MuK">
+                                <rect key="frame" x="98.666666666666671" y="700" width="35.000000000000014" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="IwK-f9-3zJ"/>
+                                    <constraint firstAttribute="width" constant="35" id="gKh-7g-iAc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="i'm local" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBP-H7-qnb">
+                                <rect key="frame" x="142.66666666666666" y="709.66666666666663" width="90" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="7OT-Er-XVN"/>
+                                    <constraint firstAttribute="width" constant="90" id="sPc-Vo-vIk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="YesevaOne" family="Yeseva One" pointSize="21"/>
+                                <color key="textColor" red="0.99694985150000004" green="0.50595414640000003" blue="0.53780025239999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98044627900000003" blue="0.97595685720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xBP-H7-qnb" firstAttribute="leading" secondItem="Uce-Gv-MuK" secondAttribute="trailing" constant="9" id="0XG-7D-Vyn"/>
+                            <constraint firstItem="xBP-H7-qnb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Fty-hP-QqC"/>
+                            <constraint firstItem="xBP-H7-qnb" firstAttribute="centerY" secondItem="Uce-Gv-MuK" secondAttribute="centerY" id="Qli-XA-NKw"/>
+                            <constraint firstItem="0Vw-xU-9B5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="234" id="Qsy-Ds-EAx"/>
+                            <constraint firstItem="0Vw-xU-9B5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TWf-rK-hwM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uce-Gv-MuK" secondAttribute="bottom" constant="43" id="oNC-9Z-H8J"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Vector" width="37" height="37"/>
+    </resources>
+</document>
